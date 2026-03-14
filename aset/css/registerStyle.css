@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background-image: url('../img/dark-night-urban-scene_1308-24033.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register-card{
+    background-color: #d0e3fc;
+    width: 380px;
+    height: 570px;
+    padding: 40px 35px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.register-card h2 {
+    color: #313d94;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.register-card p.subtitle {
+    color: #313d94;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form-group{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    display: block;
+    color: #6a768f ;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn-reg{
+    background-color:#4a67cc ;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    width: 85%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-reg:hover{
+    background-color: #3955b3;
+}
+
+.login-link{
+    font-size: 13px;
+    color: #7a8ba8;
+}
+
+.login-link a{
+    color: #4a67cc;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.login-link a:hover{
+    text-decoration: underline;
+}
